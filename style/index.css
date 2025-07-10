@@ -7,6 +7,30 @@
   font-variation-settings:
     "width" 100;
 }
+/* chat gpt code */
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+main {
+    flex: 1;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* style to color    */
@@ -143,7 +167,7 @@ main section{
 main{
     max-width: 1140px;
     margin: 0px auto;
-    height: 550px;
+    
 }
 .item-desccibtion {
     font-size: 20px;
@@ -191,7 +215,7 @@ main{
     display: flex;
     gap: 71px;
 }
-.section-title {
+/* .section-title {
     color: #181818;
     font-weight: bold;
     font-size: 35px;
@@ -199,7 +223,7 @@ main{
     margin-right: 350px;
     margin-left: 350px;
 
-}
+} */
 .experience-description {
     color:#757575 ;
     font-size: 16px;
@@ -233,3 +257,26 @@ main{
 
 
 }
+/* footer style */
+footer {
+    padding:130px 230px;
+    display: flex;
+    gap: 120px;
+}
+.footer-column {
+    
+    width: 50%;
+}
+ footer input[type="text" ] ,footer input[type="Email"] ,footer textarea{
+    height:64px ;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+
+ }
+
