@@ -1,16 +1,3 @@
-/* nav bar style    */
-nav {
-    display: flex;
-}
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-
-}
-span{
-    color: #FD6E0A;
-
-}
 
 /* google font use  */
 .open-sans normal{
@@ -20,3 +7,102 @@ span{
   font-variation-settings:
     "width" 100;
 }
+
+
+/* style to color    */
+.font-color{
+ color: #474747;
+}
+
+/* shared button style */
+.btn-style{
+    background-color:#FD6E0A ;
+    font-weight: bold;
+    font-size:20px ;
+    color:#FFFFFF ;
+    padding:18 36 ;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    
+
+    
+}
+/* nav bar style    */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+span{
+    color: #FD6E0A;
+
+
+}
+
+
+/* nav style 2 */
+header {
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+/* banner style */
+.banner-content {
+    max-width: 585px;
+    max-height: 356px;
+    /* size:290 785 184 230 ; */
+}
+
+.banner-1{
+    font-size:45px ;
+    font-weight:600px ;
+
+}
+.banner-2{
+    font-weight:bold ;
+    font-size:85px ;
+
+}
+.banner-p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600px;
+}
+.banner-picture {
+    width:584px ;
+    height: 676px;
+
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 36px 0px 200px;
+
+    
+}
+
+
+
